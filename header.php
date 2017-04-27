@@ -52,6 +52,8 @@ if (!!window.ActiveXObject || "ActiveXObject" in window) { //is IE?
   alert('请抛弃万恶的IE系列浏览器吧。');
 }
 </script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+<script >hljs.initHighlightingOnLoad();</script>
 </head>
 <body <?php body_class(); ?>>
 	<section id="main-container">

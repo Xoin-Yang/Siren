@@ -5765,3 +5765,45 @@ i.iconfont.down {
         display: none;
     }
 }
+
+/*代码高亮*/
+.hljs-comment,.hljs-quote {
+	color:#8e908c
+}
+.hljs-deletion,.hljs-name,.hljs-regexp,.hljs-selector-class,.hljs-selector-id,.hljs-tag,.hljs-template-variable,.hljs-variable {
+	color:#c82829
+}
+.hljs-built_in,.hljs-builtin-name,.hljs-link,.hljs-literal,.hljs-meta,.hljs-number,.hljs-params,.hljs-type {
+	color:#f5871f
+}
+.hljs-attribute {
+	color:#eab700
+}
+.hljs-addition,.hljs-bullet,.hljs-string,.hljs-symbol {
+	color:#718c00
+}
+.hljs-section,.hljs-title {
+	color:#4271ae
+}
+.hljs-keyword,.hljs-selector-tag {
+	color:#8959a8
+}
+.hljs {
+	display:block;
+	overflow-x:auto;
+	background:#fafafa;
+	color:#4d4d4c;
+	padding:1em
+}
+.hljs-emphasis {
+	font-style:italic
+}
+.hljs-strong {
+	font-weight:700
+}
+.diff .hljs-header,.hljs-javadoc {
+	font-style:italic
+}
+.css .rule .hljs-keyword,.hljs-cdata,.hljs-class .hljs-title,.hljs-doctype,.hljs-id,.hljs-keyword,.hljs-pi,.hljs-pragma,.hljs-preprocessor,.hljs-regexp,.hljs-request,.hljs-shebang,.hljs-status,.hljs-subst,.hljs-title,.hljs-type,.hljs-winutils,.nginx .hljs-title,.scss .hljs-preprocessor,.tex .hljs-command,.vhdl .hljs-literal {
+	font-weight:700
+}
