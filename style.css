@@ -1,11 +1,11 @@
 @charset "utf-8";
 /*
-Theme Name: Siren(Yang)
-Theme URI: http://Yangss.net
+Theme Name: Siren
+Theme URI: http://i94.me
 Author: Louie
-Author URI: http://Yangss.net
+Author URI: http://i94.me
 Description: Akina主题分支（原版地址 http://www.akina.pw/themeakina）
-Version: 2.0.6.170504
+Version: 2.0.6.170420
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: akina
@@ -3577,16 +3577,16 @@ li.feature-2 {
 
 .wechatInner img {
     border-radius: 0px;
-    width: 180px;
+    width: 121px;
     height: auto;
     padding: 0;
     background: none;
 }
 
 .wechatInner {
-    width: 180px;
-    height: 180px;
-    padding: 5px;
+    width: 121px;
+    height: 121px;
+    padding: 10px;
     background: rgba(0, 0, 0, 0.4);
     top: 40px;
     left: -40px;
@@ -5806,48 +5806,4 @@ i.iconfont.down {
 }
 .css .rule .hljs-keyword,.hljs-cdata,.hljs-class .hljs-title,.hljs-doctype,.hljs-id,.hljs-keyword,.hljs-pi,.hljs-pragma,.hljs-preprocessor,.hljs-regexp,.hljs-request,.hljs-shebang,.hljs-status,.hljs-subst,.hljs-title,.hljs-type,.hljs-winutils,.nginx .hljs-title,.scss .hljs-preprocessor,.tex .hljs-command,.vhdl .hljs-literal {
 	font-weight:700
-}
-
-/*Q群二维码*/
-.qq_group {
-    width: 35px;
-    height: 35px;
-    position: relative;
-}
-
-.qq_groupInner img {
-    border-radius: 0px;
-    width: 180px;
-    height: auto;
-    padding: 0;
-    background: none;
-}
-
-.qq_groupInner {
-    width: 180px;
-    height: 180px;
-    padding: 5px;
-    background: rgba(0, 0, 0, 0.4);
-    top: 40px;
-    left: -40px;
-    -webkit-transform: translate3d(0,50px,0);
-    transform: translate3d(0,50px,0);
-    opacity: 0;
-}
-
-.qq_groupInner {
-    position: absolute;
-    border-radius: 8px;
-    transition: .7s all ease;
-    -webkit-transition: .7s all ease;
-    -moz-transition: .7s all linear;
-    -o-transition: .7s all ease;
-    -ms-transition: .7s all ease;
-}
-
-.qq_group:hover .qq_groupInner {
-    -webkit-transform: translate3d(0,10px,0);
-    transform: translate3d(0,10px,0);
-    opacity: 1;
-    visibility: visible;
 }

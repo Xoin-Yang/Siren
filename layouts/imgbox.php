@@ -26,15 +26,8 @@ $bg_style = akina_option('focus_height') ? 'background-position: center center;b
 		<li class="qq"><a href="//wpa.qq.com/msgrd?v=3&uin=<?php echo akina_option('qq', ''); ?>&site=qq&menu=yes" target="_blank" title="Initiate chat ?"><img src="<?php bloginfo('template_url'); ?>/images/sns/qq.png"/></a></li>
 		<?php } ?>	
 		<?php if (akina_option('qzone')){ ?>
-		<li><a href="<?php echo akina_option('qzone', ''); ?>" target="_blank" class="social-qzone" title="qzone" rel="nofollow"><img src="<?php bloginfo('template_url'); ?>/images/sns/qzone.png"/></a></li>
+		<li><a href="<?php echo akina_option('qzone', ''); ?>" target="_blank" class="social-qzone" title="qzone"><img src="<?php bloginfo('template_url'); ?>/images/sns/qzone.png"/></a></li>
 		<?php } ?>
-		<?php if (akina_option('qq_group') || akina_option('qq_group1')){ ?>
-			<li class="qq_group"><a href="<?php echo akina_option('qq_group1', ''); ?>" target="_blank" rel="nofollow"><img src="<?php bloginfo('template_url'); ?>/images/sns/qq_group.png"/></a>
-			<div class="qq_groupInner">
-				<img src="<?php echo akina_option('qq_group', ''); ?>" alt="QQ群">
-			</div>
-		  </li>
-		<?php } ?> 		
 		<?php if (akina_option('github')){ ?>
 		<li><a href="<?php echo akina_option('github', ''); ?>" target="_blank" class="social-github" title="github"><img src="<?php bloginfo('template_url'); ?>/images/sns/github.png"/></a></li>
 		<?php } ?>	
@@ -47,9 +40,6 @@ $bg_style = akina_option('focus_height') ? 'background-position: center center;b
 		<?php if (akina_option('youku')){ ?>
 		<li><a href="<?php echo akina_option('youku', ''); ?>" target="_blank" class="social-youku" title="youku"><img src="<?php bloginfo('template_url'); ?>/images/sns/youku.png"/></a></li>
 		<?php } ?>
-		<?php if (akina_option('tudou')){ ?>
-		<li><a href="<?php echo akina_option('tudou', ''); ?>" target="_blank" class="social-tudou" title="tudou" rel="nofollow"><img src="<?php bloginfo('template_url'); ?>/images/sns/tudou.png"/></a></li>
-		<?php } ?>		
 		<?php if (akina_option('wangyiyun')){ ?>
 		<li><a href="<?php echo akina_option('wangyiyun', ''); ?>" target="_blank" class="social-wangyiyun" title="CloudMusic"><img src="<?php bloginfo('template_url'); ?>/images/sns/wangyiyun.png"/></a></li>
 		<?php } ?>
