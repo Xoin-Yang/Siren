@@ -424,7 +424,19 @@ function optionsframework_options() {
 		'desc' => __('微信二维码', 'options_framework_theme'),
 		'id' => 'wechat',
 		'type' => 'upload');
-	
+
+	$options[] = array(
+		'name' => __('QQ群二维码', 'options_framework_theme'),
+		'desc' => __('QQ群二维码', 'options_framework_theme'),
+		'id' => 'qq_group',
+		'type' => 'upload');
+		
+	$options[] = array(
+		'name' => __('QQ群链接', 'options_framework_theme'),
+		'desc' => __('QQ群链接', 'options_framework_theme'),
+		'id' => 'qq_group1',
+        'type' => 'text');	
+		
     $options[] = array(
 		'name' => __('新浪微博', 'options_framework_theme'),
 		'desc' => __('新浪微博地址', 'options_framework_theme'),
@@ -441,7 +453,7 @@ function optionsframework_options() {
 		
 	$options[] = array(
 		'name' => __('QQ空间', 'options_framework_theme'),
-		'desc' => __('QQ空间地址', 'options_framework_theme'),
+		'desc' => __('QQ空间', 'options_framework_theme'),
 		'id' => 'qzone',
 		'std' => '',
 		'type' => 'text');	
@@ -473,6 +485,13 @@ function optionsframework_options() {
 		'id' => 'youku',
 		'std' => '',
 		'type' => 'text');
+		
+		$options[] = array(
+		'name' => __('土豆视频', 'options_framework_theme'),
+		'desc' => __('土豆地址', 'options_framework_theme'),
+		'id' => 'tudou',
+		'std' => '',
+		'type' => 'text');		
 
 	$options[] = array(
 		'name' => __('网易云音乐', 'options_framework_theme'),
@@ -746,3 +765,4 @@ function optionsframework_options() {
 
 	return $options;
 }
+//end(170504)
